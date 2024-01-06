@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/types/(.*)": "<rootDir>/../libs/types/src/$1",
+    "@app/types": "<rootDir>/../libs/types/src",
+    "@app/rabbit-patterns/(.*)": "<rootDir>/../libs/rabbit-patterns/src/$1",
+    "@app/rabbit-patterns": "<rootDir>/../libs/rabbit-patterns/src"
+  }
+}
