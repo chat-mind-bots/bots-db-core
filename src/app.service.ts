@@ -3,7 +3,7 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   constructor() {
-    console.log(process.env.MONGO_URI);
+    console.log(process.env);
   }
   getHello(): string {
     return 'Hello World!';
