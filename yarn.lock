@@ -360,6 +360,18 @@
     rxjs "^7.8.1"
     typegram "^5.2.0"
 
+"@chat-mind-bots/rabbit-patterns@^1.0.8":
+  version "1.0.8"
+  resolved "https://npm.pkg.github.com/download/@chat-mind-bots/rabbit-patterns/1.0.8/7a4b3cc631a709a93745640256b98acaad676edc#7a4b3cc631a709a93745640256b98acaad676edc"
+  integrity sha512-SuQdVR6G9cDR2jKWSZ3NoHldAWUDKnvBgG3bl2irpux1jp3p1ElPvGiLY7SgEreuFIORJGVMdidGJ1kSxIlv0w==
+  dependencies:
+    "@chat-mind-bots/bots-models" "^1.1.6"
+    "@nestjs/common" "^10.0.0"
+    "@nestjs/core" "^10.0.0"
+    "@nestjs/platform-express" "^10.0.0"
+    reflect-metadata "^0.1.13"
+    rxjs "^7.8.1"
+
 "@colors/colors@1.5.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"

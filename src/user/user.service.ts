@@ -10,6 +10,18 @@ export class UserService {
   ) {}
 
   async create(createUserDto: CreateUserDto) {
+    let userInDB = false;
+    if (createUserDto.telegram?.id) {
+      const oldUser = await this.userModel
+        .findOne({ 'telegram.id': createUserDto.telegram?.id })
+        .exec();
+      if (oldUser) {
+        userInDB = true;
+      }
+    }
+    if (userInDB) {
+      return;
+    }
     const user = await this.userModel.create({
       telegram: createUserDto.telegram,
     });
