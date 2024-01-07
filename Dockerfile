@@ -10,10 +10,11 @@ WORKDIR /app
 # Copy the package.json and yarn.lock files into the container
 COPY package.json yarn.lock .npmrc ./
 
+ARG NODE_AUTH_TOKEN
+
 # Install dependencies using Yarn
 RUN yarn install --frozen-lockfile
 
-ARG NODE_AUTH_TOKEN
 
 # Copy the rest of the application files into the container
 COPY . .
