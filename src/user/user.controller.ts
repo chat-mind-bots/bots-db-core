@@ -2,7 +2,7 @@ import { Controller } from '@nestjs/common';
 import { MessagePattern, Payload } from '@nestjs/microservices';
 import { UserService } from './user.service';
 import { CREATE_USER } from '@app/rabbit-patterns';
-import { CreateUserDto } from '@app/types';
+import { CreateUserDto } from '@chat-mind-bots/bots-models';
 
 @Controller()
 export class UserController {

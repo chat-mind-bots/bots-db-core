@@ -1,7 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { CreateUserDto } from '@app/types';
+import { CreateUserDto, User, UserDocument } from '@chat-mind-bots/bots-models';
 import { InjectModel } from '@nestjs/mongoose';
-import { User, UserDocument } from '@app/types/user/schema';
 import { Model } from 'mongoose';
 
 @Injectable()

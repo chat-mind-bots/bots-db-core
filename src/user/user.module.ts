@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { UserService } from './user.service';
 import { UserController } from './user.controller';
 import { MongooseModule } from '@nestjs/mongoose';
-import { User, UserSchema } from '@app/types/user/schema';
+import { User, UserSchema } from '@chat-mind-bots/bots-models';
 
 @Module({
   imports: [
