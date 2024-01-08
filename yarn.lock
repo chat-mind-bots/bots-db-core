@@ -360,10 +360,24 @@
     rxjs "^7.8.1"
     typegram "^5.2.0"
 
-"@chat-mind-bots/rabbit-patterns@^1.0.8":
-  version "1.0.8"
-  resolved "https://npm.pkg.github.com/download/@chat-mind-bots/rabbit-patterns/1.0.8/7a4b3cc631a709a93745640256b98acaad676edc#7a4b3cc631a709a93745640256b98acaad676edc"
-  integrity sha512-SuQdVR6G9cDR2jKWSZ3NoHldAWUDKnvBgG3bl2irpux1jp3p1ElPvGiLY7SgEreuFIORJGVMdidGJ1kSxIlv0w==
+"@chat-mind-bots/bots-models@^1.1.7":
+  version "1.1.7"
+  resolved "https://npm.pkg.github.com/download/@chat-mind-bots/bots-models/1.1.7/5d4ec843b07ccfc0956cc87276b61dd8cfa02f67#5d4ec843b07ccfc0956cc87276b61dd8cfa02f67"
+  integrity sha512-Mb600vVPMhMjDxxsH4o4vTP+pVjwfSM1pKTRW1ywEiU6+mmby77gID534LmPhqv/8rzpvxJPAc4vX66imZVypA==
+  dependencies:
+    "@nestjs/common" "^10.0.0"
+    "@nestjs/core" "^10.0.0"
+    "@nestjs/mongoose" "^10.0.2"
+    "@nestjs/platform-express" "^10.0.0"
+    mongoose "^8.0.3"
+    reflect-metadata "^0.1.13"
+    rxjs "^7.8.1"
+    typegram "^5.2.0"
+
+"@chat-mind-bots/rabbit-patterns@^1.0.9":
+  version "1.0.9"
+  resolved "https://npm.pkg.github.com/download/@chat-mind-bots/rabbit-patterns/1.0.9/cf833f28dee0d41411a6b706ed1273bb8f43afec#cf833f28dee0d41411a6b706ed1273bb8f43afec"
+  integrity sha512-4H0oZtAWO6HQIl4U1ap3SpgoIvHYFbyszpMXfKYaP6GLa50fcTZvetJ+26BPa77R5ks599Gf88TccAiZiK+e8g==
   dependencies:
     "@chat-mind-bots/bots-models" "^1.1.6"
     "@nestjs/common" "^10.0.0"
