@@ -24,7 +24,10 @@ export class UserService {
         userInDB = true;
 
         if (!oldUser?.bots.includes(botLogin)) {
-          await oldUser.updateOne({ bots: [...oldUser.bots, botLogin] });
+          await oldUser.updateOne({
+            bots: [...oldUser.bots, botLogin],
+            updatedAt: Date.toString(),
+          });
         }
       }
     }
